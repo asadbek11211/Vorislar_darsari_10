@@ -31,12 +31,22 @@ import math
 
 # Nolga teng bolmagan ikkita son berilgan. Ularning Yigindisini, Kopaytmasini, Va modullarini aniqlash dasturini yarating 
 
-birinchi_son = float(input("Nolga teng bo'lmagan ixtiyoriy son kiriting  son1 = "))
-ikkinchi_son = float(input("Nolga teng bo'lmagan ixtiyoriy son kiriting  son2 = "))
+# birinchi_son = float(input("Nolga teng bo'lmagan ixtiyoriy son kiriting  son1 = "))
+# ikkinchi_son = float(input("Nolga teng bo'lmagan ixtiyoriy son kiriting  son2 = "))
 
-yigindi = birinchi_son + ikkinchi_son
-kopaytma = birinchi_son * ikkinchi_son
-son1_modul = math.fabs(birinchi_son) 
-son2_modul = math.fabs(ikkinchi_son)
+# yigindi = birinchi_son + ikkinchi_son
+# kopaytma = birinchi_son * ikkinchi_son
+# son1_modul = math.fabs(birinchi_son) 
+# son2_modul = math.fabs(ikkinchi_son)
 
-print(f"Siz kiritgan sonlarning \n Yigindisi = {yigindi} \n Kopaytmasi = {kopaytma} \n Birinchi sonning moduli = {son1_modul} \n Ikkinchi sonning moduli = {son2_modul}")
+# print(f"Siz kiritgan sonlarning \n Yigindisi = {yigindi} \n Kopaytmasi = {kopaytma} \n Birinchi sonning moduli = {son1_modul} \n Ikkinchi sonning moduli = {son2_modul}")
+
+# To'gr uchburchakni katetlari A va B berilgan. Uning gipatenuzasi va Peremetrini toping
+
+A = int(input("To'gri uchburchakning birinchi katetini kiriting A = "))
+B = int(input("To'gri uchburchakning ikkinchi katetini kiriting B = "))
+
+C = math.sqrt(A**2 + B**2)
+P = A + B + C
+
+print(f"Siz kiritgan to'gri uchburchakning \n Gipatenuzasi = {C} \n Peremetri = {P}")

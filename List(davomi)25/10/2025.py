@@ -47,9 +47,27 @@
 # print(juft_sonlar)
 
 
-sonlar = [-98,58,63,1,1.2,1001,56,-120,-698,569,895,100]
+# sonlar = [-98,58,63,1,1.2,1001,56,-120,-698,569,895,100]
 
-print(max(sonlar))
-print(min(sonlar))
-print(sum(sonlar))
+# print(max(sonlar))
+# print(min(sonlar))
+# print(sum(sonlar))
 
+# royhatdan nusxa olish
+
+bayramlar = ['navroz',"8-mart","1-may","9-may","1-sentabr","31-oktabr","8-dekabr","25-dekabr"]
+
+print("Asl nusxadagi royhat :",bayramlar)
+
+
+
+# bayramlar_nusxa = bayramlar[:]
+# print("royhatdan kochirma :", bayramlar_nusxa)
+
+# bayramlar_nusxa.remove("navroz")
+# print("Asl nusxadagi royhat :",bayramlar)
+# print("royhatdan kochirma :",bayramlar_nusxa)
+
+sonlar = [1,2,3,4,5,6,7,8,9,10]
+
+print("1-dan 5gacha bolgan sonlarni chiqarish", sonlar[0:5])

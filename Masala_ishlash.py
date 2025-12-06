@@ -11,11 +11,11 @@
 # print("Siz kiritgan sonning birlar honasidagi raqam : ", birlar, "ga teng")
 
 
-B = int(input("Istalgan uch honali son kiriting "))
-birlar = B%10
-onlar =int(B/10)%10
-yuzlar = int(B/100)
-print(birlar)
-print(onlar)
-print(yuzlar)
-print("Siz kiritga sonning hona birliklari yigindisi : ", birlar + onlar + yuzlar, "ga teng")
+# B = int(input("Istalgan uch honali son kiriting "))
+# birlar = B%10
+# onlar =int(B/10)%10
+# yuzlar = int(B/100)
+# print(birlar)
+# print(onlar)
+# print(yuzlar)
+# print("Siz kiritga sonning hona birliklari yigindisi : ", birlar + onlar + yuzlar, "ga teng")

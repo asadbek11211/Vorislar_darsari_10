@@ -20,9 +20,10 @@
 # print(yuzlar)
 # print("Siz kiritga sonning hona birliklari yigindisi : ", birlar + onlar + yuzlar, "ga teng")
 
-# l = int(input("smdagi qiymatni kiriting : "))
-# m = l/100
-# print(l, "sm ", m, "metr ga teng")
+l = int(input("baytlardagi qiymatni kiriting : "))
+m = l/1024
+print(l, "bayt ", m, "Kbayt ga teng")
+
 
 
 

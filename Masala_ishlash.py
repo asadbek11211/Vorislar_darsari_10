@@ -34,13 +34,13 @@
 # yigindi= (son_1+son_2-son_3)**3
 # print(yigindi)
 
-son1 =int(input("1-qiymatni kiriting/ .. /"))
-son2 =int(input("2-qiymatni kiriting/ .. /"))
+# son1 =int(input("1-qiymatni kiriting/ .. /"))
+# son2 =int(input("2-qiymatni kiriting/ .. /"))
 
-yigindi = (son1**3-son2**2)
-print(f"{son1} ning kubi {son1**3}")
-print(f"{son2} ning kvadrati{son2**2}")
-print(yigindi)
+# yigindi = (son1**3-son2**2)
+# print(f"{son1} ning kubi {son1**3}")
+# print(f"{son2} ning kvadrati{son2**2}")
+# print(yigindi)
 
 
 

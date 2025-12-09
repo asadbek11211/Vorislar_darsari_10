@@ -13,3 +13,10 @@ kamolbek = {
 }
 
 print(f"{kamolbek['ism'].title()} {kamolbek['familya'].title()} {kamolbek['yosh']} yoshda ")
+
+
+
+
+
+
+

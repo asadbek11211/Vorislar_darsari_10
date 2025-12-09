@@ -50,3 +50,4 @@ C = math.sqrt(A**2 + B**2)
 P = A + B + C
 
 print(f"Siz kiritgan to'gri uchburchakning \n Gipatenuzasi = {C} \n Peremetri = {P}")
+

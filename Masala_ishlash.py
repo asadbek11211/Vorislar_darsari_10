@@ -42,6 +42,34 @@
 # print(f"{son2} ning kvadrati{son2**2}")
 # print(yigindi)
 
+# malumotturi = {}
+# print(type(malumotturi))
+
+# ismlar = ['kumushoy','abdukarim','oyshajon']
+
+# print(ismlar[1])
+
+it10 = {
+    'oqish':'It darslariga yonaltirilgan',
+    'oquvchi1':'oyshajon',
+    'oquvchi2':'mohinur',
+    'oquvchi3':'kumushoy',
+    'oquvchi4':'behruzbek',
+    'maqsad':'It boyicha kadr bolish'
+}
+
+matn = f"Bugunki kunda {it10['oqish'].upper()} koplab loyihalar mavjud"
+matn1 = f"Hozirda bizda shuday o'quvchilar mavjud ular {it10['oquvchi1'].upper()} va {it10['oquvchi2'].upper()} va {it10['oquvchi3'].upper()} va {it10['oquvchi4'].upper()} Maqsad esa {it10['maqsad'].upper()}"
+print(matn)
+print(matn1)
+
+
+
+
+
+
+
+
 
 
 

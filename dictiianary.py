@@ -1,3 +1,5 @@
+
+
 kamolbek = {
     'ism' : 'kamolbek',
     'yosh': 15,
@@ -6,6 +8,8 @@ kamolbek = {
     'maktab': '1-sonli maktab',
     'sinf': 9,
     'qiziqish': 'fudbol',
-    'tranport': 'BMW',
+    'transport': 'BMW',
     'oqish': 'orta'
 }
+
+print(f"{kamolbek['ism'].title()} {kamolbek['familya'].title()} {kamolbek['yosh']} yoshda ")

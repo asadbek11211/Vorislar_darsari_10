@@ -51,4 +51,6 @@
 print('5'+'2')
 print("Natija:", 5 + 2)
 print(10 / 3 * 3)
-type("Hello")
+print(type("Hello"))
+g = {1, 2, 3}
+print(type(g))

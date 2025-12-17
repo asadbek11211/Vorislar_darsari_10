@@ -54,3 +54,5 @@ print(10 / 3 * 3)
 print(type("Hello"))
 g = {1, 2, 3}
 print(type(g))
+print(type({"a": 1, 'b': 'hgdh'}["b"]))
+print(type(True + 5))
